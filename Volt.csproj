@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PackageId>Volt.DayviSchuster</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Dayvi Schuster</Authors>
+    <Description>A Simplification of the HttpClient for the dotnet core framework, currently only supports sending synchronous requests</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) bit-code.de. All rights reserved.</Copyright>
+    <PackageTags>http webclient web httpclient client HttpClient simple minimal synchronous</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
