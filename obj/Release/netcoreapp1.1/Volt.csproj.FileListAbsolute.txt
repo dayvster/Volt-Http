@@ -1,6 +1,0 @@
-C:\Users\dschuster.WPSM\documents\visual studio 2017\Projects\Volt\Volt\bin\Release\netcoreapp1.1\Volt.deps.json
-C:\Users\dschuster.WPSM\documents\visual studio 2017\Projects\Volt\Volt\bin\Release\netcoreapp1.1\Volt.dll
-C:\Users\dschuster.WPSM\documents\visual studio 2017\Projects\Volt\Volt\bin\Release\netcoreapp1.1\Volt.pdb
-C:\Users\dschuster.WPSM\documents\visual studio 2017\Projects\Volt\Volt\obj\Release\netcoreapp1.1\Volt.AssemblyInfo.cs
-C:\Users\dschuster.WPSM\documents\visual studio 2017\Projects\Volt\Volt\obj\Release\netcoreapp1.1\Volt.dll
-C:\Users\dschuster.WPSM\documents\visual studio 2017\Projects\Volt\Volt\obj\Release\netcoreapp1.1\Volt.pdb
