@@ -9,16 +9,13 @@ The client itself is relatively easy to use.
 Below you will find a simple code example on how to use the library in a console application, of course you are free to use it in any kind of dotnet core application you would like.
 #### Example: 
 ```csharp
+using Arctekdev.Volt;
+using System;
 namespace Vtest{
-    using System;
-    using Volt.Http;
     class Program {
         static void Main(string[] args){ 
-            // Initialise the client
-            VClient Volt = new VClient();
-
             // Let's just send a very simple GET request
-            string result = Volt.Get(new Uri("https://httpbin.org/get")).Content.ReadAsStringAsync().Result;
+            string result = VHttp.Get(new Uri("https://httpbin.org/get")).Content.ReadAsStringAsync().Result;
 
             // And print it to the console
             Console.WriteLine(result);
@@ -44,8 +41,7 @@ if you did everything right then the output should be something along these line
 
 #### Post Request
 ```csharp
-    VClient Volt = new VClient();
-    Volt.Post(
+    VHttp.Post(
         new Uri("https://httpbin.org/post"), 
         "supercalifragilisticexpialidocious",
         "text/plain"
@@ -54,8 +50,7 @@ if you did everything right then the output should be something along these line
 
 #### Chainable
 ```csharp
-    VClient Volt = new VClient();
-    Volt.SendPost(
+    VHttp.SendPost(
         new Uri("https://httpbin.org/post"), 
         "supercalifragilisticexpialidocious", 
         "text/plain"

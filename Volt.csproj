@@ -1,19 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     <PackageId>Volt.DayviSchuster</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
-    <Authors>Dayvi Schuster</Authors>
+    <Authors>ArctekDev</Authors>
     <Description>A Simplification of the HttpClient for the dotnet core framework, currently only supports sending synchronous requests</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>First release</PackageReleaseNotes>
-    <Copyright>Copyright 2017 (c) bit-code.de. All rights reserved.</Copyright>
+    <PackageReleaseNotes>2.2.0 release</PackageReleaseNotes>
+    <Copyright></Copyright>
     <PackageTags>http webclient web httpclient client HttpClient simple minimal synchronous</PackageTags>
+    <Version>2.2.1</Version>
+    <PackageProjectUrl>https://github.com/arctekdev/Volt-Http</PackageProjectUrl>
+    <Company>ArctekDev</Company>
+    <RepositoryUrl>https://github.com/arctekdev/Volt-Http</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
 </Project>
